@@ -1,5 +1,5 @@
 {
-  "name": "@ottimis/capacitor-tracking-transparency",
+  "name": "@ottimis/capacitor-ios-app-tracking",
   "version": "1.0.0",
   "description": "App Tracking Transparency (ATT) plugin for Capacitor 7 — iOS only",
   "main": "dist/esm/index.js",
