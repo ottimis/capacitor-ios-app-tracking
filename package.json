@@ -1,0 +1,43 @@
+{
+  "name": "@ottimis/capacitor-tracking-transparency",
+  "version": "1.0.0",
+  "description": "App Tracking Transparency (ATT) plugin for Capacitor 7 — iOS only",
+  "main": "dist/esm/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "files": [
+    "dist/",
+    "ios/",
+    "OttimisCapacitorTrackingTransparency.podspec"
+  ],
+  "scripts": {
+    "prepublishOnly": "echo 'Publishing @ottimis/capacitor-tracking-transparency'"
+  },
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "ios",
+    "tracking",
+    "att",
+    "app-tracking-transparency",
+    "privacy"
+  ],
+  "author": "Ottimis <dev@ottimis.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ottimis/gazzetta-regionale-app.git",
+    "directory": "capacitor-plugins/tracking-transparency"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    }
+  },
+  "peerDependencies": {
+    "@capacitor/core": ">=7.0.0"
+  }
+}
