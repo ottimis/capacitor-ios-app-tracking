@@ -1,11 +1,11 @@
-# @ottimis/capacitor-tracking-transparency
+# @ottimis/capacitor-ios-app-tracking
 
 App Tracking Transparency (ATT) plugin for Capacitor 7. iOS only — requests ATT permission and opens the app's Settings page.
 
 ## Install
 
 ```bash
-npm install @ottimis/capacitor-tracking-transparency
+npm install @ottimis/capacitor-ios-app-tracking
 npx cap sync
 ```
 
@@ -25,9 +25,9 @@ Add `NSUserTrackingUsageDescription` to your `Info.plist`:
 Requests ATT authorization. Shows the system dialog on first call; subsequent calls return the stored status.
 
 ```typescript
-import { TrackingTransparency } from '@ottimis/capacitor-tracking-transparency';
+import { CapacitorIosAppTracking } from '@ottimis/capacitor-ios-app-tracking';
 
-const { status } = await TrackingTransparency.requestPermission();
+const { status } = await CapacitorIosAppTracking.requestPermission();
 // status: 'authorized' | 'denied' | 'restricted' | 'notDetermined'
 ```
 
@@ -36,7 +36,7 @@ const { status } = await TrackingTransparency.requestPermission();
 Opens the app's entry in iOS Settings (Privacy & Security → Tracking). Useful to let the user change a previously denied permission.
 
 ```typescript
-await TrackingTransparency.openTrackingSettings();
+await CapacitorIosAppTracking.openTrackingSettings();
 ```
 
 ## Web / Android
