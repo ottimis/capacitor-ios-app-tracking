@@ -1,6 +1,6 @@
 {
   "name": "@ottimis/capacitor-ios-app-tracking",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "App Tracking Transparency (ATT) plugin for Capacitor 7 — iOS only",
   "main": "dist/esm/index.js",
   "module": "dist/esm/index.js",
@@ -9,7 +9,7 @@
   "files": [
     "dist/",
     "ios/",
-    "OttimisCapacitorTrackingTransparency.podspec"
+    "OttimisCapacitorIosAppTracking.podspec"
   ],
   "scripts": {
     "build": "npm run clean && tsc && rollup -c rollup.config.js",

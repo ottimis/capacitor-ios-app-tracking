@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name             = 'OttimisCapacitorTrackingTransparency'
-  s.version          = '1.0.0'
+  s.name             = 'OttimisCapacitorIosAppTracking'
+  s.version          = '1.0.2'
   s.summary          = 'App Tracking Transparency plugin for Capacitor 7'
   s.homepage         = 'https://ottimis.com'
   s.license          = 'MIT'
